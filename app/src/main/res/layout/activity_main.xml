@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#131213"
+        android:textColor="#3F51B5"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginBottom="-78dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#ff00"
+        android:textSize="26sp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:textSize="26sp"
+        android:hint="mật khẩu"
+        android:id="@+id/editTextMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginBottom="-131dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/dangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="211dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="cancel" />
+
+
+</RelativeLayout>
